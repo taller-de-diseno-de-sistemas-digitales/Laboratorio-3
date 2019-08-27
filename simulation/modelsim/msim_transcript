@@ -1,0 +1,56 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Laboratorio3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/allan/Desktop/TEC/ll\ semestre\ 2019/Taller\ Digitales/Quartus\ Prime/Laboratorio-3 {C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:24:50 on Aug 27,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3" C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments.sv 
+# -- Compiling module Deco7Segments
+# 
+# Top level modules:
+# 	Deco7Segments
+# End time: 00:24:50 on Aug 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/allan/Desktop/TEC/ll\ semestre\ 2019/Taller\ Digitales/Quartus\ Prime/Laboratorio-3 {C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:24:50 on Aug 27,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3" C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv 
+# -- Compiling module Deco7Segments_test
+# 
+# Top level modules:
+# 	Deco7Segments_test
+# End time: 00:24:50 on Aug 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Deco7Segments_test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Deco7Segments_test 
+# Start time: 00:24:51 on Aug 27,2019
+# Loading sv_std.std
+# Loading work.Deco7Segments_test
+# Loading work.Deco7Segments
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# entrada = 1010, salida = 0001000
+# entrada = 0101, salida = 0100100
+# entrada = 1101, salida = 1000010
+# entrada = 0111, salida = 0001111
+# ** Note: $stop    : C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv(19)
+#    Time: 54 ps  Iteration: 0  Instance: /Deco7Segments_test
+# Break in Module Deco7Segments_test at C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv line 19
+# End time: 00:25:11 on Aug 27,2019, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
