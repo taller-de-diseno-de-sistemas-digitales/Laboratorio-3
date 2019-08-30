@@ -7,54 +7,54 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/simulation/modelsim
+Z0 dC:/Users/yenma/Documents/GitHub/Laboratorio-3/simulation/modelsim
 vDeco7Segments
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1566887090
+!s110 1567202863
 !i10b 1
 !s100 >ELShiiSL_YF`;L4^MnT>1
-IC[027Uigi5Wgabm[<C2I[3
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+IO3>B87_cCQl^E_]j2SB?e0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 Deco7Segments_sv_unit
 S1
 R0
-w1566886910
-8C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments.sv
-FC:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments.sv
+Z3 w1567202550
+8C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments.sv
+FC:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments.sv
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1566887090.000000
-!s107 C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3|C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments.sv|
+Z5 !s108 1567202863.000000
+!s107 C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yenma/Documents/GitHub/Laboratorio-3|C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments.sv|
 !i113 1
 Z6 o-sv -work work
-Z7 !s92 -sv -work work {+incdir+C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3}
+Z7 !s92 -sv -work work +incdir+C:/Users/yenma/Documents/GitHub/Laboratorio-3
 Z8 tCvgOpt 0
 n@deco7@segments
 vDeco7Segments_test
 R1
-R2
+!s110 1567202864
 !i10b 1
 !s100 jT0>iFRjeg`WlZ6=mf8U00
-Iz^RLVDm2Y?g]aTXb9a0;32
-R3
+IkMbR@UCJ[5hfj;lI;XfcS2
+R2
 !s105 Deco7Segments_test_sv_unit
 S1
 R0
-w1566886960
-8C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv
-FC:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv
+R3
+8C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments_test.sv
+FC:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments_test.sv
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3|C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv|
+!s107 C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments_test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yenma/Documents/GitHub/Laboratorio-3|C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments_test.sv|
 !i113 1
 R6
 R7

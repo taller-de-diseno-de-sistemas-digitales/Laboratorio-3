@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Laboratorio3
-Tue Aug 27 00:24:35 2019
+Fri Aug 30 16:07:19 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Aug 27 00:24:35 2019       ;
+; Analysis & Elaboration Status ; Successful - Fri Aug 30 16:07:19 2019       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; Laboratorio3                                ;
 ; Top-level Entity Name         ; Deco7Segments                               ;
@@ -160,19 +160,19 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Aug 27 00:24:12 2019
+    Info: Processing started: Fri Aug 30 16:06:58 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Laboratorio3 -c Laboratorio3 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file deco7segments.sv
-    Info (12023): Found entity 1: Deco7Segments File: C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments.sv Line: 1
+    Info (12023): Found entity 1: Deco7Segments File: C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file deco7segments_test.sv
-    Info (12023): Found entity 1: Deco7Segments_test File: C:/Users/allan/Desktop/TEC/ll semestre 2019/Taller Digitales/Quartus Prime/Laboratorio-3/Deco7Segments_test.sv Line: 1
+    Info (12023): Found entity 1: Deco7Segments_test File: C:/Users/yenma/Documents/GitHub/Laboratorio-3/Deco7Segments_test.sv Line: 1
 Info (12127): Elaborating entity "Deco7Segments" for the top level hierarchy
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4765 megabytes
-    Info: Processing ended: Tue Aug 27 00:24:35 2019
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:48
+    Info: Peak virtual memory: 4775 megabytes
+    Info: Processing ended: Fri Aug 30 16:07:19 2019
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:43
 
 
