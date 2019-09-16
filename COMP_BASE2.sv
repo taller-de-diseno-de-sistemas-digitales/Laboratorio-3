@@ -1,3 +1,4 @@
+//Se encarga de realizar el complemento a la base 2 de un numero
 module COMP_BASE2 #(parameter N=1)(input [N-1:0]a,
 												output [N-1:0]s);
 

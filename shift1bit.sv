@@ -1,3 +1,4 @@
+//Desplaza un unico bit
 module shift1bit(input dir,A_in, Cin_i,Cin_d,
 					  output A_out);
 logic s1,s2;

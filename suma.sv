@@ -1,3 +1,5 @@
+//Dados dos datos de entrada de un tamaño variable se realiza la suma los mismos
+
 module suma #(parameter N = 1)
 (input [N-1:0] a, b,
  input cin,

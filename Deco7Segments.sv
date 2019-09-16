@@ -1,3 +1,4 @@
+//Modulo que dado una entrada activa un conjunto de salidas para ser mostradas en el 7 segmentos de la FPGA
 module Deco7Segments(input logic [3:0] entrada,
 						   output logic [6:0] salida );
 	always_comb 

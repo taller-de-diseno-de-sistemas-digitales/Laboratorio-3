@@ -1,3 +1,4 @@
+//Compuerta NOT
 module NOT_Gate #(parameter N=1)
 (input [N-1:0] a,
  output [N-1:0] s
