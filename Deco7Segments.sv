@@ -2,7 +2,7 @@ module Deco7Segments(input logic [3:0] entrada,
 						   output logic [6:0] salida );
 	always_comb 
 	case(entrada) 
-	
+							//	 012 3456
 					      //  abc_defg
 		4'd0:	 salida = 7'b000_0001;
 		4'd1:	 salida = 7'b100_1111;

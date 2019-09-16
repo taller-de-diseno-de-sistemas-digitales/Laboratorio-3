@@ -1,0 +1,87 @@
+module ALU_selfchecking ();
+
+parameter SIZE = 4;
+logic [SIZE -1: 0] A,B,Y;
+logic [3:0] ALUControl;
+logic negativo, cero, acarreo;
+
+ALU #(.N(SIZE)) DUT (.A(A),.B(B),.ALUControl(ALUControl),.Y(Y),.negativo(negativo),.cero(cero),.acarreo(acarreo));
+
+initial begin
+
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0000; 
+	assert(Y === 4b'0010) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0001; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+
+
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0010 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+		
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0011; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+	
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0100; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+	
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0101; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+	
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0110; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+	
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b0111; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+	
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b1000; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+	
+	#10
+	A = 4'b1111; B = 4'b0010; ALUControl = 4'b1001; 
+	assert(Y === 0) else $error("Error salida 2bit");
+	assert(negativo === 0) else $error("Error bandera negativo");
+	assert(cero === 0) else $error("Error bandera cero");
+	assert(acarreo === 0) else $error("Error bandera acarreo");
+	
+	#10 $stop;
+
+
+end 
+endmodule

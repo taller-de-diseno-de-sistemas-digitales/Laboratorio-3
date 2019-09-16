@@ -1,0 +1,4 @@
+module maricarmen (input logic [2:0] A, B,
+ input logic [3:0] ALUControl,
+ output logic [2:0] Y,
+ output negativo, cero, acarreo)
