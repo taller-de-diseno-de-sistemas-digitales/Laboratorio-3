@@ -1,3 +1,4 @@
+// Se encarga de ejecutar el modulo "shifter1posicion" n veces para completar el desplazamiento deseado
 module shifter #(parameter N=2, parameter shamt=1)
 (input [N-1:0] A,
  input logic [N-1:0] B, 

@@ -1,3 +1,8 @@
+/*
+Se encarga de tomar un dato de entrada y desplazar todos los digitos de esa entrada una unica posicion de acuerdo 
+a la seleccion que determine el mux, esta seleccion determina tanto el tipo de desplazamiento (aritmetico o logico)
+asi como su direccion (izquierda o derecha). Utiliza el modulo shift1bit para lograr el desplazamiento
+*/
 module shifter1posicion #(parameter N=2) 
 (input [N-1:0] Ain,
  input sel,  dir,
