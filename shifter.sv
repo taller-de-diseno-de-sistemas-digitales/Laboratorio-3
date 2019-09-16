@@ -1,6 +1,6 @@
 module shifter #(parameter N=2, parameter shamt=1)
 (input [N-1:0] A,
- input logic [$clog2(N)-1:0] B, 
+ input logic [N-1:0] B, 
  input sel, dir,
  output [N-1:0] Aout);
 

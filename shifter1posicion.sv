@@ -13,7 +13,6 @@ shift1bit shift1(.dir(dir),.A_in(Ain[0]),.Cin_i(Ain[1]),.Cin_d(ZERO),
 .A_out(Aout[0]));
 
 genvar i;
-genvar j;
 generate
 	for (i=1; i<N-1; i=i+1) begin: generate_block_identifier
 		shift1bit shift1(.dir(dir),.A_in(Ain[i]),.Cin_i(Ain[i+1]),.Cin_d(Ain[i-1]),
